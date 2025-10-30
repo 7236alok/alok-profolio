@@ -24,11 +24,10 @@ export const projects: Project[] = [
     title: "Social Spy – Social Media Data Extraction Tool",
     description:
       "Engineered a Flask-based automation tool integrating APIs from multiple platforms for social media data extraction. Automated PDF report generation with a MongoDB backend — improved data collection efficiency by 40%.",
-    image: "/projects/project1.jpg",
+    image: "/project/Algo/image.png", // Placeholder due to missing SIH images
     screenshots: [
-      "/projects/project1.jpg",
-      "/projects/project1-01.jpg",
-      "/projects/project1-02.jpg"
+      "/project/Algo/image1.png",
+      "/project/Algo/image2.png"
     ],
     tech: ["Flask", "Python", "MongoDB", "REST", "Celery"],
     github: "https://github.com/yourusername/social-media-extraction-tool",
@@ -38,7 +37,7 @@ export const projects: Project[] = [
       "Improved throughput using Celery for task scheduling.",
       "Used schema-free MongoDB for flexible and scalable data ingestion."
     ],
-    architectureImg: "/projects/architecture-social.png",
+  architectureImg: "/project/Algo/Algo-arch.png",
     year: "2024",
     tags: ["AI", "Automation", "Data Extraction", "Flask"],
     impact: "Hackathon",
@@ -48,11 +47,11 @@ export const projects: Project[] = [
     title: "Real-Time DDoS Attack Detection System",
     description:
       "Developed and deployed a real-time DDoS detection system using Logistic Regression, Apache Kafka, and FastAPI. Designed an alerting dashboard in Grafana and optimized system latency through multithreading for continuous inference.",
-    image: "/projects/project2.jpg",
+    image: "/project/DDOS/image1.png",
     screenshots: [
-      "/projects/project2.jpg",
-      "/projects/project2-01.jpg",
-      "/projects/project2-02.jpg"
+      "/project/DDOS/image1.png",
+      "/project/DDOS/image2.png",
+      "/project/DDOS/image3.png"
     ],
     tech: [
       "Python",
@@ -70,7 +69,7 @@ export const projects: Project[] = [
       "Implemented Kafka-based data pipelines for real-time flow handling.",
       "Created Grafana dashboards with automated security alerts."
     ],
-    architectureImg: "/projects/architecture-ddos.png",
+  architectureImg: "/project/DDOS/DDOS-arch.png",
     year: "2025",
     tags: ["AI Security", "Cybersecurity", "Machine Learning", "Kafka"],
     impact: "Industry",
@@ -80,11 +79,10 @@ export const projects: Project[] = [
     title: "Algorithm Visualization Platform",
     description:
       "An interactive web application to visualize sorting, searching, and graph algorithms, improving conceptual understanding through animation and interactivity. Widely used for classroom demonstrations and learning assistance.",
-    image: "/projects/project3.jpg",
+    image: "/project/Algo/image.png",
     screenshots: [
-      "/projects/project3.jpg",
-      "/projects/project3-01.jpg",
-      "/projects/project3-02.jpg"
+      "/project/Algo/image1.png",
+      "/project/Algo/image2.png"
     ],
     tech: ["JavaScript", "HTML5 Canvas", "Chart.js", "CSS", "Accessibility"],
     url: "https://https://algo-visualizer-alok.netlify.app/",
@@ -93,7 +91,7 @@ export const projects: Project[] = [
       "Enhanced understanding of algorithm efficiency via dynamic visuals.",
       "Optimized animation rendering for smooth experience across devices."
     ],
-    architectureImg: "/projects/architecture-algo.png",
+  architectureImg: "/project/Algo/Algo-arch.png",
     year: "2023",
     tags: ["Visualization", "DSA", "Education", "Web App"],
     impact: "Academic",
@@ -103,11 +101,10 @@ export const projects: Project[] = [
     title: "Smart Pet Feeder using IoT",
     description:
       "Built an IoT-based smart pet feeder using ESP8266 and servo motor for automated food dispensing. Integrated a web dashboard for schedule management, manual feeding, and real-time remote control.",
-    image: "/projects/project1.jpg",
+  image: "/project/IOT/image1.png",
     screenshots: [
-      "/projects/project1.jpg",
-      "/projects/project1-01.jpg",
-      "/projects/project1-02.jpg"
+      "/project/IOT/image1.png",
+      "/project/IOT/image2.png"
     ],
     tech: ["ESP8266", "C", "HTML", "CSS", "IoT", "Web Server"],
     github: "https://github.com/yourusername/smart-pet-feeder",
@@ -116,7 +113,7 @@ export const projects: Project[] = [
       "Implemented scheduling with NTP-based time synchronization.",
       "Enabled secure web-based remote control and feeding logs."
     ],
-    architectureImg: "/projects/architecture-petfeeder.png",
+  architectureImg: "/project/IOT/Iot-arch.png",
     year: "2024",
     tags: ["IoT", "Embedded Systems", "Automation", "Smart Devices"],
     impact: "Personal",
@@ -126,11 +123,9 @@ export const projects: Project[] = [
     title: "Exam Central – Role-based Exam Management System",
     description:
       "Developed a role-based examination management platform with Next.js, Prisma ORM, and Clerk authentication. Deployed in Docker containers and integrated PostgreSQL for secure and efficient data handling.",
-    image: "/projects/project2.jpg",
+    image: "/project/Exam/exam-arch.png",
     screenshots: [
-      "/projects/project2.jpg",
-      "/projects/project2-01.jpg",
-      "/projects/project2-02.jpg"
+      "/project/Exam/exam-arch.png"
     ],
     tech: ["Next.js", "Prisma", "Clerk", "Docker", "PostgreSQL"],
     github: "https://github.com/yourusername/exam-central",
@@ -138,7 +133,7 @@ export const projects: Project[] = [
       "Implemented secure RBAC and multi-session handling.",
       "Used containerization to streamline deployment environments."
     ],
-    architectureImg: "/projects/architecture-exam.png",
+  architectureImg: "/project/Exam/exam-arch.png",
     year: "2024",
     tags: ["Full Stack", "RBAC", "Next.js", "PostgreSQL"],
     impact: "Academic",
@@ -151,11 +146,11 @@ export const projects: Project[] = [
     id: "4",
     title: "Your Project Name",
     description: "Brief description of your project and its impact...",
-    image: "/projects/project4.jpg",
+    image: "/project/project4.jpg",
     screenshots: [
-      "/projects/project4.jpg",
-      "/projects/project4-01.jpg",
-      "/projects/project4-02.jpg"
+      "/project/project4.jpg",
+      "/project/project4-01.jpg",
+      "/project/project4-02.jpg"
     ],
     tech: ["React", "Node.js", "MongoDB", "etc"],
     url: "https://your-live-demo.com",
@@ -166,7 +161,7 @@ export const projects: Project[] = [
       "Second key learning or technical insight",
       "Third key learning or best practice discovered",
     ],
-    architectureImg: "/projects/architecture-diagram.png",
+  architectureImg: "/project/architecture-diagram.png",
     year: "2024",
   },
   */
