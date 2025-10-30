@@ -58,6 +58,8 @@ A cutting-edge, performance-optimized portfolio website built with Next.js 15, T
 
 ## 📁 Project Structure
 
+
+# ```plaintext
 ```
 r_protfolio/
 ├── 📁 public/                    # Static assets
@@ -267,5 +269,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 📧 **Contact:** your.email@example.com  
 💼 **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)  
 🐙 **GitHub:** [Your GitHub](https://github.com/your-username)
-#   a l o k - p r o f o l i o  
+#   a l o k - p r o f o l i o 
+ 
  
