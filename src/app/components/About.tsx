@@ -515,7 +515,7 @@ export default function About() {
                       <FiGithub className="text-xl" />
                     </motion.a>
                     <motion.a
-                      href="https://linkedin.com/in/alok-yadav"
+                      href="https://linkedin.com/in/7236alok"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-3 border border-gray-700 rounded-lg hover:bg-gray-800 transition-all"
