@@ -7,6 +7,7 @@ export interface Project {
   description: string;
   image: string;
   screenshots?: string[];
+  video?: string;
   tech: string[];
   url?: string;
   github?: string;
@@ -24,11 +25,13 @@ export const projects: Project[] = [
     title: "Social Spy – Social Media Data Extraction Tool",
     description:
       "Engineered a Flask-based automation tool integrating APIs from multiple platforms for social media data extraction. Automated PDF report generation with a MongoDB backend — improved data collection efficiency by 40%.",
-    image: "/project/Algo/image.png", // Placeholder due to missing SIH images
+    image: "/project/SIH/image1.png",
     screenshots: [
-      "/project/Algo/image1.png",
-      "/project/Algo/image2.png"
+      "/project/SIH/image1.png",
+      "/project/SIH/image2.png",
+      "/project/SIH/image3.png"
     ],
+    video: "/project/SIH/front.mp4",
     tech: ["Flask", "Python", "MongoDB", "REST", "Celery"],
     github: "https://github.com/yourusername/social-media-extraction-tool",
     recognition: "Smart India Hackathon 2024 Finalist",
@@ -37,7 +40,7 @@ export const projects: Project[] = [
       "Improved throughput using Celery for task scheduling.",
       "Used schema-free MongoDB for flexible and scalable data ingestion."
     ],
-  architectureImg: "/project/Algo/Algo-arch.png",
+  architectureImg: "/project/SIH/SIH-arch.svg",
     year: "2024",
     tags: ["AI", "Automation", "Data Extraction", "Flask"],
     impact: "Hackathon",
@@ -84,6 +87,7 @@ export const projects: Project[] = [
       "/project/Algo/image1.png",
       "/project/Algo/image2.png"
     ],
+    video: "/project/Algo/front.mp4",
     tech: ["JavaScript", "HTML5 Canvas", "Chart.js", "CSS", "Accessibility"],
     url: "https://https://algo-visualizer-alok.netlify.app/",
     github: "https://github.com/yourusername/algorithm-visualization",

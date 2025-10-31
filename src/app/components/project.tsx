@@ -400,12 +400,25 @@ const AlternatingProjectCard: React.FC<AlternatingProjectCardProps> = ({
           {/* Image Side */}
           <div className={`relative ${direction === 'right' ? 'lg:col-start-2' : ''}`}>
             <div className="relative h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl group project-image-container">
-              <Image
-                src={project.image}
-                alt={project.title}
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-700"
-              />
+              {project.video ? (
+                <video
+                  src={project.video}
+                  poster={project.image}
+                  className="absolute inset-0 w-full h-full object-cover"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                />
+              ) : (
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+              )}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
               
               {/* Direction Indicator */}
@@ -718,12 +731,25 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="md:col-span-2 w-full h-[400px] relative rounded-2xl overflow-hidden bg-gray-100 dark:bg-gray-800 group">
-                <Image 
-                  src={project.screenshots?.[0] ?? project.image} 
-                  alt={`${project.title} main screenshot`} 
-                  fill 
-                  className="object-cover group-hover:scale-105 transition-transform duration-500" 
-                />
+                {project.video ? (
+                  <video
+                    src={project.video}
+                    poster={project.image}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                  />
+                ) : (
+                  <Image 
+                    src={project.screenshots?.[0] ?? project.image} 
+                    alt={`${project.title} main screenshot`} 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-500" 
+                  />
+                )}
               </div>
 
               {project.screenshots && project.screenshots.slice(1).map((src, i) => (
